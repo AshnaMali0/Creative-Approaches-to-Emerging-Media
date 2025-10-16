@@ -1,5 +1,5 @@
 const myProjects=[];
-for (i=1;i<=3;i++){
+for (i=1;i<=4;i++){
     myProjects.push(`Assignment ${i}`);
 }
 
@@ -21,3 +21,4 @@ function clickButton(index) {
     document.location.href = newUrl;
     // document.getElementbyID("blog-post").innerHTML = "<div>" + myBlogs[index] + "</div>";
 }
+
