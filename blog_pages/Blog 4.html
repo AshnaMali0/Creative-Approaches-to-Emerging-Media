@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ashna's Creative Approaches to Emerging Media Blog</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+
+        .my-span {
+            flex-wrap:nowrap;
+            background-image:url(../Render_Daina_Lockie.jpeg);
+        }
+
+        h3 {
+            margin-left: 15vw;
+            margin-right: 15vw;
+            margin-bottom: 2vw;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+        }
+
+        h2 {
+            text-align: center;
+            
+        }
+
+        .title {
+            text-align:right;
+            display:block;
+        }
+
+        #back-arrow {
+            /* for some reason works when it's an id, not a class */
+            /* position:absolute; */
+            /* width:5vw; */
+            display:block;
+            height:5vw;
+            width:5vw;
+            margin-left:2%;
+            margin-top:auto;
+            margin-bottom:auto;
+        }
+
+        #back-arrow .cls-1 {
+            transition: 0.3s;
+        }
+
+        #back-arrow:hover .cls-1{
+            stroke: white;
+        }
+
+        #img-container {
+            display:flex;
+            justify-self:center;
+        }
+
+        #img-container > * {
+            width:25vw;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="my-span">
+        <!-- back arrow svg -->
+        <?xml version="1.0" encoding="UTF-8"?>
+            <svg id="back-arrow" onclick="backButton()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520.65 993.32" preserveAspectRatio="slice">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-miterlimit: 10;
+                            stroke-width: 75;
+                        }
+                    </style>
+                </defs>
+                <polyline class="cls-1" points="508.66 981.33 23.99 496.66 508.66 11.99" />
+            </svg>
+
+        <!-- title -->
+        <h1 class="title">Creative Approaches to Emerging Media</h1>
+        
+        
+    </header>
+
+    <h2>Blog 4</h2>
+
+    <h3>
+        When reading the Ingrid Burrington excerpt, I got to her point about living inside a computer. She writes that, since the days of the ENIAC (which was so big people worked in it), computers have gotten smaller, yet the spaces it bridges gets bigger. In a way, the whole planet is encircled by a giant computer.
+    </h3>
+
+    <h3>
+        This immediately reminds me of the science fiction short story I Have No Mouth, and I Must Scream, written in 1966 by Harlan Ellison, a prolific writer infamous for not taking criticism well. It’s a techno-horror story about AI taking over the world (a plot line that’s just not fun anymore these days), but the similarity lies in the setting. The planet is literally encircled by the AI super-computer, with miles of linoleum floors, and walls of servers making a giant maze like a dense forest. Biomes on the earth grow around the computer. It’s an interesting setting that shows the protagonists of the story can’t escape the super-computer short of ejecting themselves into space – it’s literally everywhere.
+    </h3>
+
+    <h3>
+        The story’s setting contrasts Burrington’s observation that, in the real world, internet cable lines are hidden in our environments: they’re under sidewalks, manhole covers, sprouting from wifi towers that aren’t meant to be displayed. In this way, we don’t notice we’re in a supercomputer. In true UX design fashion, we have the unintimidating client-side user experience. I don’t think this concept is native to internet infrastructure (think coal miners in caves vs. riders inside steam-powered train cabins), nor do I think we’re living in a hellscape like the one in I Have No Mouth, and I Must Scream. I’m not a fan of pessimistic stories: I think there is a layer of unfaithful duplicity when portraying an environment, or thing, or theme as bad (at least, in most cases). But I did want to note the idea that visible computer infrastructure in the story connotes domination on an unprecedented scale (the planet), while hiding internet infrastructure in real life gives us the illusion of “the internet is magic and cool and I could live without it”.
+    </h3>
+
+    <h3>
+        Burrington also mentions Lower Manhattan pre-1888, where cable lines ran on poles aboveground, which was a cheaper solution to burying lines underground. She describes them as densely layered cables casting a shadow, and I found this photo on Greentech Renewables. This definitely looks like a web. It’s terrifying seeing their fragility on display while knowing the danger of snapped cables.
+    </h3>
+
+    <img src="../images/1880_power_lines.png" width:50vw; style="display:flex; justify-self:center;">
+
+    <h3>
+        I also wanted to note that there is a running theme of the-world-as-a-living-thing in this reading. Burrington describes the process of microtrenching like surgery: making a narrow cut, repairing it, and leaving a scar. Companies merge and consolidate, and Burrington encourages us to use the words “dragon” and “devour” to better understand this process. Layers of spray paint and outdated maps that don’t keep up with company mergers leaves a complicated history that makes studying road signs seem like studying ancient peoples’ mythology. Burrington mentions electric cables being built upon existing infrastructure, which is built upon the landscape that makes the rise of technology follow a path similar to a herd of animals sticking to a game trail. Maybe this is a reach, and not intentional but Burrington. It’s still interesting.
+    </h3>
+
+    <h3>
+        A couple pages from John Bryne’s graphic novel adaptation is shown below, illustrating the super-computer as an environment or biome.
+    </h3>
+
+    <div id="img-container">
+        <img src="../images/JohnBryne_ComputerBiome.jpeg">
+        <img src="../images/JohnBryne_IceBiome.jpg">
+    </div>
+
+
+    <footer class="my-span"><h1 class="title"></h1></footer>
+    <script src="../myScript.js"></script>
+
+</body>
